@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us | Info Network Solutions</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#000e24",
+                        "on-primary-fixed-variant": "#2c4771",
+                        "inverse-surface": "#233144",
+                        "surface-dim": "#ccdbf3",
+                        "outline-variant": "#c4c6d0",
+                        "surface-variant": "#d5e3fc",
+                        "surface-container": "#e6eeff",
+                        "surface-tint": "#455f8a",
+                        "on-tertiary": "#ffffff",
+                        "on-background": "#0d1c2e",
+                        "on-error": "#ffffff",
+                        "primary-fixed-dim": "#adc7f8",
+                        "primary-fixed": "#d6e3ff",
+                        "secondary-fixed": "#ffdad9",
+                        "on-tertiary-fixed": "#191c1e",
+                        "background": "#f8f9ff",
+                        "on-tertiary-fixed-variant": "#444749",
+                        "on-primary-fixed": "#001b3d",
+                        "surface-bright": "#f8f9ff",
+                        "on-secondary-fixed": "#40000a",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-container": "#888b8d",
+                        "on-primary-container": "#718bb9",
+                        "error": "#ba1a1a",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#202426",
+                        "tertiary": "#0b0e10",
+                        "outline": "#74777f",
+                        "surface-container-highest": "#d5e3fc",
+                        "surface": "#f8f9ff",
+                        "surface-container-high": "#dce9ff",
+                        "inverse-on-surface": "#eaf1ff",
+                        "secondary": "#ba002e",
+                        "on-surface-variant": "#43474e",
+                        "on-secondary": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "tertiary-fixed-dim": "#c4c7c9",
+                        "primary-container": "#00234b",
+                        "secondary-fixed-dim": "#ffb3b3",
+                        "on-error-container": "#93000a",
+                        "secondary-container": "#e31c40",
+                        "on-secondary-fixed-variant": "#920022",
+                        "on-secondary-container": "#fffbff",
+                        "tertiary-fixed": "#e0e3e5",
+                        "surface-container-low": "#eff4ff",
+                        "on-surface": "#0d1c2e",
+                        "inverse-primary": "#adc7f8"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-unit": "8px",
+                        "margin-mobile": "20px",
+                        "margin-desktop": "48px",
+                        "gutter": "24px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Inter"],
+                        "headline-sm": ["Inter"],
+                        "headline-md": ["Inter"],
+                        "display-lg-mobile": ["Inter"],
+                        "title-lg": ["Inter"],
+                        "label-sm": ["Inter"],
+                        "display-lg": ["Inter"],
+                        "label-md": ["Inter"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-sm": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "headline-md": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "500" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased selection:bg-surface-tint selection:text-on-primary">
+<!-- TopNavBar (Shared Component) -->
+<header class="bg-surface-container-lowest border-b border-outline-variant w-full sticky top-0 z-50">
+<div class="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center gap-gutter">
+<a class="text-title-lg font-title-lg text-primary" href="index.html">Info Network Solutions</a>
+</div>
+<!-- Desktop Nav -->
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200 cursor-pointer active:opacity-80 transition-all font-label-md text-label-md py-6" href="index.html">Home</a>
+<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200 cursor-pointer active:opacity-80 transition-all font-label-md text-label-md py-6" href="services.html">Services</a>
+<a class="text-secondary font-bold border-b-2 border-secondary hover:text-secondary transition-colors duration-200 cursor-pointer active:opacity-80 transition-all font-label-md text-label-md py-6 -mb-[2px]" href="about.html">About</a>
+<a class="text-on-surface-variant font-medium hover:text-secondary transition-colors duration-200 cursor-pointer active:opacity-80 transition-all font-label-md text-label-md py-6" href="legal.html">Compliance</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="hidden md:inline-flex items-center justify-center px-6 py-2.5 bg-secondary text-on-secondary font-label-md text-label-md rounded hover:bg-secondary-container transition-colors shadow-sm" href="contact.html">Contact Sales</a>
+<button id="mobileMenuToggle" class="md:hidden text-on-surface-variant" aria-controls="mobileNavPanel" aria-expanded="false">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+<div id="mobileNavPanel" class="md:hidden hidden border-t border-outline-variant bg-surface-container-lowest">
+<div class="px-margin-mobile max-w-container-max mx-auto py-4 space-y-3">
+<a class="block text-on-surface-variant" href="index.html">Home</a>
+<a class="block text-on-surface-variant" href="services.html">Services</a>
+<a class="block text-secondary font-semibold" href="about.html">About</a>
+<a class="block text-on-surface-variant" href="legal.html">Compliance</a>
+<a class="block text-secondary font-semibold" href="contact.html">Contact Us</a>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative pt-24 pb-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto border-b border-outline-variant">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-7 pr-0 lg:pr-12">
+<h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-6">Bridging the Gap Between Complex Engineering &amp; Business Goals.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-2xl">Over a decade of technical leadership and execution for global enterprises, delivering scalable, secure, and high-performance digital ecosystems.</p>
+<div class="flex flex-wrap gap-4">
+<span class="inline-flex items-center gap-2 px-4 py-2 bg-surface-container text-primary font-label-sm text-label-sm rounded-full border border-outline-variant">
+<span class="material-symbols-outlined text-[16px]">verified_user</span> Secure Infrastructure
+                    </span>
+<span class="inline-flex items-center gap-2 px-4 py-2 bg-surface-container text-primary font-label-sm text-label-sm rounded-full border border-outline-variant">
+<span class="material-symbols-outlined text-[16px]">speed</span> High Performance
+                    </span>
+<span class="inline-flex items-center gap-2 px-4 py-2 bg-surface-container text-primary font-label-sm text-label-sm rounded-full border border-outline-variant">
+<span class="material-symbols-outlined text-[16px]">public</span> Global Scale
+                    </span>
+</div>
+</div>
+<div class="lg:col-span-5 mt-12 lg:mt-0 relative">
+<div class="aspect-square bg-surface-container-highest rounded border border-outline-variant relative overflow-hidden flex items-center justify-center">
+<img class="object-cover w-full h-full opacity-80 mix-blend-multiply" alt="A modern secure server room with organized racks and bright technical lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZsWaLLs7guYcZRZ3IGNafPWANcxzxlP8yOtH98RaNmQzKTCmsjKzNTC4Bponsp9QKtoctY8bgHcKdNozISOCyqZsmJyCuj51i2Xo6RC7RXoCu4CDqLmMDHqpqNy5xzQYHgumG7MqxMqCRLlZQnHSN8e-iqzXVdsAxAIHVFC8s_VMxuoAFW91AuasRojtc8KNTtPAfqePfuoyucWSyELaJH8UBMIZMXg7fuY6vWRF2dvl-rx62Z_lrWhJUjMZavbreilR4zxN3wa0W"/>
+</div>
+<!-- Decorative geometric element -->
+<div class="absolute -bottom-6 -left-6 w-32 h-32 border-l-2 border-b-2 border-primary opacity-20 pointer-events-none"></div>
+<div class="absolute -top-6 -right-6 w-32 h-32 border-r-2 border-t-2 border-primary opacity-20 pointer-events-none"></div>
+</div>
+</div>
+</section>
+<!-- Mission & Vision (Bento Grid) -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="mb-16">
+<h2 class="font-headline-md text-headline-md text-primary mb-4">Our Strategic Directive</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">We engineer solutions that are not merely functional, but foundationally sound, prioritizing compliance and robust architecture to support long-term enterprise growth.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Vision -->
+<div class="bg-surface-container-lowest p-8 border border-outline-variant rounded lg:col-span-2 relative overflow-hidden group hover:border-surface-tint transition-colors duration-300">
+<div class="absolute top-0 right-0 p-8 opacity-5">
+<span class="material-symbols-outlined text-[120px]">visibility</span>
+</div>
+<div class="relative z-10">
+<div class="w-12 h-12 bg-primary text-on-primary flex items-center justify-center rounded mb-6">
+<span class="material-symbols-outlined" data-weight="fill" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-primary mb-3">Vision</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">To be the undisputed architect of the future's digital backbone, providing scalable, secure, and impeccably high-performance digital ecosystems for global industry leaders.</p>
+</div>
+</div>
+<!-- Mission -->
+<div class="bg-primary p-8 border border-outline-variant rounded relative overflow-hidden">
+<div class="relative z-10 h-full flex flex-col">
+<div class="w-12 h-12 bg-surface-container-highest text-primary flex items-center justify-center rounded mb-6">
+<span class="material-symbols-outlined" data-weight="fill" style="font-variation-settings: 'FILL' 1;">flag</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-primary mb-3">Mission</h3>
+<p class="font-body-md text-body-md text-surface-variant flex-grow">Delivering uncompromising technical excellence through a rigorous, compliance-first approach to systems engineering and digital transformation.</p>
+</div>
+</div>
+<!-- Values -->
+<div class="bg-surface-container-lowest p-8 border border-outline-variant rounded lg:col-span-3">
+<h3 class="font-title-lg text-title-lg text-primary mb-8 border-b border-outline-variant pb-4">Core Values</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="flex items-start gap-4">
+<div class="mt-1 text-secondary">
+<span class="material-symbols-outlined">gavel</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-primary font-bold mb-2">Integrity First</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Unwavering commitment to ethical engineering, data security, and transparent client partnerships.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="mt-1 text-secondary">
+<span class="material-symbols-outlined">architecture</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-primary font-bold mb-2">Technical Rigor</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Applying stringent testing, optimization, and architectural best practices to every line of code and infrastructure deployment.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="mt-1 text-secondary">
+<span class="material-symbols-outlined">language</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md text-primary font-bold mb-2">Global Capability</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Designing systems capable of handling worldwide scale, multi-region compliance, and complex international deployments.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Philosophy / Leadership -->
+<section class="py-24 bg-surface-container-lowest border-t border-outline-variant">
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex flex-col md:flex-row gap-16 items-start">
+<div class="md:w-1/3 sticky top-32">
+<h2 class="font-headline-md text-headline-md text-primary mb-4">Core Philosophy</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">Our leadership team brings over 10 years of specialized experience in high-stakes enterprise IT, driving our methodology of 'Secure Sophistication.'</p>
+<a class="inline-flex items-center gap-2 text-secondary font-label-md text-label-md hover:text-secondary-container transition-colors" href="contact.html">
+                        Read Full Leadership Bios <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="md:w-2/3">
+<div class="border-l border-outline-variant pl-8 py-4 space-y-12">
+<!-- Philosophy Pillar 1 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-primary"></div>
+<h3 class="font-title-lg text-title-lg text-primary mb-3">Compliance as a Catalyst, Not a Constraint</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">We view regulatory compliance (SOC2, GDPR, HIPAA) not as a hurdle, but as a foundational architectural requirement that inherently drives better, more secure engineering practices.</p>
+</div>
+<!-- Philosophy Pillar 2 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-primary"></div>
+<h3 class="font-title-lg text-title-lg text-primary mb-3">Architectural Minimalism</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Complexity is the enemy of security and scale. We employ 'Corporate Modernism' in our codebases and infrastructure—stripping away unnecessary ornamentation to focus on clarity, speed, and reliability.</p>
+</div>
+<!-- Philosophy Pillar 3 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-surface-container-lowest border-2 border-secondary"></div>
+<h3 class="font-title-lg text-title-lg text-primary mb-3">Execution over Theory</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">While visionary strategy is essential, our true value lies in the precise, methodical execution of complex engineering tasks, bridging the gap between high-level business goals and ground-level technical realities.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer (Shared Component) -->
+<footer class="bg-primary w-full py-12 px-margin-mobile md:px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-center gap-stack-unit max-w-container-max mx-auto border-t border-surface-tint pt-8">
+<div class="flex flex-col items-center md:items-start gap-4">
+<span class="text-headline-sm font-headline-sm text-on-primary">Info Network Solutions</span>
+<span class="text-surface-variant font-label-sm text-label-sm">© 2026 Info Network Solutions. GSTIN: 27AJPPN5000R1ZN</span>
+</div>
+<div class="flex flex-wrap justify-center gap-6 mt-6 md:mt-0">
+<a class="text-surface-variant font-label-sm text-label-sm hover:text-on-primary-fixed transition-colors cursor-pointer" href="legal.html#privacy">Privacy Policy</a>
+<a class="text-surface-variant font-label-sm text-label-sm hover:text-on-primary-fixed transition-colors cursor-pointer" href="legal.html#terms">Terms of Service</a>
+<a class="text-surface-variant font-label-sm text-label-sm hover:text-on-primary-fixed transition-colors cursor-pointer" href="legal.html#refunds">Refund Policy</a>
+<a class="text-surface-variant font-label-sm text-label-sm hover:text-on-primary-fixed transition-colors cursor-pointer" href="contact.html">Contact Us</a>
+</div>
+</div>
+</footer>
+<script>
+const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+const mobileNavPanel = document.getElementById('mobileNavPanel');
+if (mobileMenuToggle && mobileNavPanel) {
+  mobileMenuToggle.addEventListener('click', () => {
+    const isHidden = mobileNavPanel.classList.contains('hidden');
+    mobileNavPanel.classList.toggle('hidden', !isHidden);
+    mobileMenuToggle.setAttribute('aria-expanded', String(isHidden));
+  });
+}
+</script>
+</body></html>

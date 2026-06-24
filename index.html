@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="Info Network Solutions provides enterprise IT leadership, web architecture, automation, and governance services for secure growth."/>
+<title>Info Network Solutions - Enterprise IT Leadership</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#ccdbf3",
+                        "outline-variant": "#c4c6d0",
+                        "error-container": "#ffdad6",
+                        "primary-fixed": "#d6e3ff",
+                        "on-error-container": "#93000a",
+                        "on-primary-container": "#718bb9",
+                        "error": "#ba1a1a",
+                        "inverse-primary": "#adc7f8",
+                        "tertiary-fixed-dim": "#c4c7c9",
+                        "secondary-container": "#e31c40",
+                        "surface": "#f8f9ff",
+                        "secondary-fixed-dim": "#ffb3b3",
+                        "secondary-fixed": "#ffdad9",
+                        "primary-container": "#00234b",
+                        "tertiary": "#0b0e10",
+                        "surface-container-low": "#eff4ff",
+                        "on-secondary-container": "#fffbff",
+                        "surface-variant": "#d5e3fc",
+                        "on-primary-fixed-variant": "#2c4771",
+                        "on-surface": "#0d1c2e",
+                        "primary": "#000e24",
+                        "on-tertiary-fixed-variant": "#444749",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "surface-tint": "#455f8a",
+                        "on-surface-variant": "#43474e",
+                        "on-secondary-fixed": "#40000a",
+                        "surface-bright": "#f8f9ff",
+                        "outline": "#74777f",
+                        "primary-fixed-dim": "#adc7f8",
+                        "on-secondary-fixed-variant": "#920022",
+                        "surface-container": "#e6eeff",
+                        "on-tertiary-container": "#888b8d",
+                        "surface-container-highest": "#d5e3fc",
+                        "background": "#f8f9ff",
+                        "on-error": "#ffffff",
+                        "inverse-surface": "#233144",
+                        "inverse-on-surface": "#eaf1ff",
+                        "tertiary-fixed": "#e0e3e5",
+                        "surface-container-high": "#dce9ff",
+                        "tertiary-container": "#202426",
+                        "on-secondary": "#ffffff",
+                        "secondary": "#ba002e",
+                        "on-primary-fixed": "#001b3d",
+                        "on-background": "#0d1c2e",
+                        "on-tertiary-fixed": "#191c1e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-unit": "8px",
+                        "margin-mobile": "20px",
+                        "margin-desktop": "48px",
+                        "container-max": "1280px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Inter", "sans-serif"],
+                        "headline-sm": ["Inter", "sans-serif"],
+                        "display-lg": ["Inter", "sans-serif"],
+                        "label-md": ["Inter", "sans-serif"],
+                        "headline-md": ["Inter", "sans-serif"],
+                        "label-sm": ["Inter", "sans-serif"],
+                        "display-lg-mobile": ["Inter", "sans-serif"],
+                        "title-lg": ["Inter", "sans-serif"],
+                        "body-lg": ["Inter", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-sm": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "500" }],
+                        "headline-md": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased font-body-md">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface dark:bg-surface-container border-b border-outline-variant dark:border-outline">
+<div class="flex justify-between items-center px-margin-desktop max-w-container-max mx-auto h-20">
+<!-- Brand -->
+<a class="text-title-lg font-title-lg font-bold text-primary dark:text-primary-fixed" href="index.html">Info Network Solutions</a>
+<!-- Navigation Links (Web) -->
+<div class="hidden md:flex items-center gap-8">
+<a class="text-secondary dark:text-secondary-fixed font-bold border-b-2 border-secondary h-20 flex items-center cursor-pointer active:scale-95" href="index.html">Home</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary hover:text-secondary transition-colors duration-200 flex items-center h-20 cursor-pointer active:scale-95" href="services.html">Services</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary hover:text-secondary transition-colors duration-200 flex items-center h-20 cursor-pointer active:scale-95" href="about.html">About</a>
+<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary hover:text-secondary transition-colors duration-200 flex items-center h-20 cursor-pointer active:scale-95" href="legal.html">Compliance</a>
+</div>
+<a class="hidden md:block bg-primary text-on-primary text-label-md font-label-md px-6 py-3 rounded-DEFAULT hover:bg-primary-container transition-colors duration-200 cursor-pointer active:scale-95" href="contact.html">
+                Contact Us
+            </a>
+<button id="mobileMenuToggle" class="md:hidden text-on-surface cursor-pointer" aria-controls="mobileNavPanel" aria-expanded="false">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+<div id="mobileNavPanel" class="md:hidden hidden border-t border-outline-variant bg-surface">
+<div class="px-margin-mobile max-w-container-max mx-auto py-4 space-y-3">
+<a class="block text-on-surface-variant" href="index.html">Home</a>
+<a class="block text-on-surface-variant" href="services.html">Services</a>
+<a class="block text-on-surface-variant" href="about.html">About</a>
+<a class="block text-on-surface-variant" href="legal.html">Compliance</a>
+<a class="block text-secondary font-semibold" href="contact.html">Contact Us</a>
+</div>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="pt-32 pb-24">
+<!-- Hero Section -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto relative mb-24">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Hero Text -->
+<div class="lg:col-span-7 z-10">
+<h1 class="text-display-lg-mobile md:text-display-lg font-display-lg text-on-surface mb-6">
+                        10+ Years of Technical Execution &amp; IT Leadership for Global Enterprises.
+                    </h1>
+<p class="text-body-lg font-body-lg text-on-surface-variant mb-10 max-w-2xl">
+                        Specializing in Advanced Web Architecture, Workflow Automation, and Enterprise IT Governance to ensure secure, scalable, and high-performance digital ecosystems.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="bg-secondary text-on-secondary px-8 py-4 rounded-DEFAULT text-label-md font-label-md hover:bg-secondary-container transition-colors duration-200 flex items-center justify-center gap-2 w-full sm:w-auto shadow-sm" href="contact.html">
+                            Secure a Consultation
+                            <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Hero Visual (Asymmetric Abstract Image) -->
+<div class="lg:col-span-5 hidden lg:block relative h-[600px] w-full rounded-lg overflow-hidden border border-outline-variant bg-surface-container">
+<!-- Geometric overlay to simulate Corporate Modernism aesthetic -->
+<div class="absolute inset-0 bg-gradient-to-br from-surface/20 to-primary/10 z-10 mix-blend-multiply"></div>
+<div class="absolute -top-10 -right-10 w-64 h-64 bg-secondary/10 rounded-full blur-3xl z-0"></div>
+<img class="absolute inset-0 w-full h-full object-cover z-0 mix-blend-luminosity opacity-80" alt="An abstract enterprise IT infrastructure scene with secure digital pathways and geometric server structures." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsOHEan8Ner8RKd0n6yQtpi-yrKJo2tpP6Zz-F5Y8chso2vrHkis23Ss3ZYRHsZ9kDjggJMUpILNHJIRZfyzPGW0v990ssJDB5F1u1Uy4iXTITRC4usPHO04oZkQMRo8cW5u4QQbyrOhKn1MxF9Rwute6tpQdXA-5JTE47YCrSdrFHtKgS7ZcLp_TYaUCcip-OM3dfnGVfSzBjZWjs36q18SzPDWADBTRIStv4mDbZmER8cPU77IIW1T9VfH_uzO5MDgkkCdp5cimq"/>
+<!-- Decorative structural lines -->
+<div class="absolute bottom-10 left-10 right-10 border-t border-outline-variant/50 pt-4 z-20 flex justify-between text-on-surface-variant text-label-sm font-label-sm">
+<span>SYS.STATE: SECURE</span>
+<span>NET.INFRA_V2</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section (Bento Grid) -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="mb-12 border-b border-outline-variant pb-4">
+<h2 class="text-headline-md font-headline-md text-on-surface">Core Competencies</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Service Block 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg p-[24px] hover:border-primary transition-colors duration-300 group">
+<div class="w-12 h-12 bg-surface-container rounded flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-2xl">architecture</span>
+</div>
+<h3 class="text-title-lg font-title-lg text-on-surface mb-3">Web Architecture &amp; Engineering</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6">
+                        Designing robust, scalable foundations for complex digital products utilizing ReactJS, Custom WordPress solutions, and optimized Elementor frameworks.
+                    </p>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">ReactJS</span>
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">WordPress</span>
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">Elementor</span>
+</div>
+</div>
+<!-- Service Block 2 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg p-[24px] hover:border-primary transition-colors duration-300 group">
+<div class="w-12 h-12 bg-surface-container rounded flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-2xl">settings_b_roll</span>
+</div>
+<h3 class="text-title-lg font-title-lg text-on-surface mb-3">Workflow Automation</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6">
+                        Streamlining operational bottlenecks through advanced n8n integrations and custom Puppeteer scripting to enhance efficiency and reduce manual overhead.
+                    </p>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">n8n</span>
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">Puppeteer</span>
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">Custom Scripts</span>
+</div>
+</div>
+<!-- Service Block 3 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg p-[24px] hover:border-primary transition-colors duration-300 group">
+<div class="w-12 h-12 bg-surface-container rounded flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-2xl">admin_panel_settings</span>
+</div>
+<h3 class="text-title-lg font-title-lg text-on-surface mb-3">Enterprise IT Governance</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6">
+                        Establishing secure, compliant IT frameworks. Expertise in Odoo deployments, Microsoft Intune endpoint management, and structuring resilient L1/L2 support protocols.
+                    </p>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">Odoo</span>
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">MS Intune</span>
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">ITIL</span>
+</div>
+</div>
+<!-- Service Block 4 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg p-[24px] hover:border-primary transition-colors duration-300 group">
+<div class="w-12 h-12 bg-surface-container rounded flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-2xl">troubleshoot</span>
+</div>
+<h3 class="text-title-lg font-title-lg text-on-surface mb-3">Technical SEO</h3>
+<p class="text-body-md font-body-md text-on-surface-variant mb-6">
+                        Data-driven performance optimization to ensure high search engine visibility, core web vitals compliance, and sustained organic growth.
+                    </p>
+<div class="flex flex-wrap gap-2">
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">Core Web Vitals</span>
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">Audit</span>
+<span class="bg-surface-dim text-on-surface text-label-sm font-label-sm px-3 py-1 rounded-full border border-outline-variant/50">Analytics</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-surface-container dark:bg-tertiary-container border-t border-outline-variant dark:border-outline mt-24">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-desktop py-stack-unit max-w-container-max mx-auto min-h-[80px]">
+<!-- Brand & Copyright -->
+<div class="flex flex-col mb-4 md:mb-0 text-center md:text-left">
+<span class="text-headline-sm font-headline-sm text-primary dark:text-primary-fixed mb-2">Info Network Solutions</span>
+<span class="text-label-sm font-label-sm text-on-surface dark:text-on-tertiary-fixed">
+                    © 2024 Info Network Solutions. All Rights Reserved. GSTIN: 27AJPPN5000R1ZN
+                </span>
+</div>
+<!-- Footer Links -->
+<div class="flex flex-wrap justify-center gap-6">
+<a class="text-label-sm font-label-sm text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary hover:underline transition-all cursor-pointer" href="legal.html#privacy">Privacy Policy</a>
+<a class="text-label-sm font-label-sm text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary hover:underline transition-all cursor-pointer" href="legal.html#terms">Terms</a>
+<a class="text-label-sm font-label-sm text-on-surface-variant dark:text-on-tertiary-container hover:text-secondary hover:underline transition-all cursor-pointer" href="legal.html#refunds">Refund Policy</a>
+</div>
+</div>
+</footer>
+<script>
+const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+const mobileNavPanel = document.getElementById('mobileNavPanel');
+if (mobileMenuToggle && mobileNavPanel) {
+  mobileMenuToggle.addEventListener('click', () => {
+    const isHidden = mobileNavPanel.classList.contains('hidden');
+    mobileNavPanel.classList.toggle('hidden', !isHidden);
+    mobileMenuToggle.setAttribute('aria-expanded', String(isHidden));
+  });
+}
+</script>
+</body></html>
